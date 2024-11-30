@@ -1,2 +1,0 @@
-# AgentsDev
- Multi Agent Framework
