@@ -2,7 +2,11 @@
 Application factory for the Multi-AI Agent Application.
 """
 from flask import Flask
-from flask_jwt_extended import JWTManager
+<<<<<<< Tabnine <<<<<<<
+from flask_jwt_extended import JWTManager#-
+from flask_jwt_extended import JWTManager#+
+jwt = JWTManager()#+
+>>>>>>> Tabnine >>>>>>># {"conversationId":"de042f5e-6f05-4312-8ca2-0cc12cfb226e","source":"instruct"}
 from src.config.config import config
 from src.config.database import DatabaseConfig
 from src.database import db
